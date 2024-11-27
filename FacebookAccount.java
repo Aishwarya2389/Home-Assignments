@@ -28,7 +28,7 @@ public class FacebookAccount {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@id='sex']")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("(//input[@type='text'])[5]")).sendKeys("9994347883");
+		driver.findElement(By.xpath("(//input[@type='text'])[5]")).sendKeys("");
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Aishu152");
 		
